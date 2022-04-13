@@ -91,7 +91,7 @@ class ISLRecompiler(ApproximateRecompiler):
         self,
         circuit_to_recompile,
         entanglement_measure=EM_TOMOGRAPHY_CONCURRENCE,
-        backend="qulacs",
+        backend=co.SV_SIM,
         execute_kwargs=None,
         coupling_map=None,
         isl_config: ISLConfig = None,

@@ -45,7 +45,7 @@ class TestRotoselectRecompiler(TestCase):
         qc = co.unroll_to_basis_gates(qc)
 
         roto_recompiler = RotoselectRecompiler(
-            qc, num_layers=10, general_initial_state=True, backend="qulacs"
+            qc, num_layers=10, general_initial_state=True
         )
 
         result = roto_recompiler.recompile()

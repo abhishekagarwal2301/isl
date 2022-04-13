@@ -17,7 +17,6 @@ setup(
         "qiskit",
         "numpy",
         "scipy",
-        "qulacs",
         "openfermion",
     ],
 )

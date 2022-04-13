@@ -1,9 +1,14 @@
-from unittest import TestCase
+from unittest import SkipTest, TestCase
 
 import numpy as np
 from qiskit import QuantumCircuit
 
 import isl.utils.circuit_operations as co
+
+try:
+    import qulacs
+except ImportError:
+    SkipTest(f"Skipping as qulacs is not installed")
 
 
 class TestQulacs(TestCase):

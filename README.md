@@ -3,7 +3,9 @@
 ISL is a circuit recompilation algorithm [1,2] that finds an approximate representation of a circuit when acting on the |0>|0>...|0> state [3].
 
 [1] Jones, Tyson, and Simon C. Benjamin. "Quantum compilation and circuit optimisation via energy dissipation." arXiv preprint arXiv:1811.03147 (2018).
+
 [2] Khatri, Sumeet, et al. "Quantum-assisted quantum compiling." Quantum 3 (2019): 140.
+
 [3] B Jaderberg, A Agarwal, K Leonhardt, M Kiffner, D Jaksch, 2020 Quantum Sci. Technol. 5 034015
 
 ### Using ISL

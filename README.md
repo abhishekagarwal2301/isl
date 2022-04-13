@@ -1,3 +1,4 @@
+
 # Incremental Structure Learning (ISL)
 
 ISL is a circuit recompilation algorithm [1,2] that finds an approximate representation of a circuit when acting on the |0>|0>...|0> state [3].
@@ -10,7 +11,7 @@ ISL is a circuit recompilation algorithm [1,2] that finds an approximate represe
 
 ### Using ISL
 ```python
-from variationalalgorithms.recompilers import ISLRecompiler
+from isl.recompilers import ISLRecompiler
 from qiskit import QuantumCircuit
 
 # Setup the circuit

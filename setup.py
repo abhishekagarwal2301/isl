@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="quanutm-isl",
+    name="quantum-isl",
     version="1.0.0",
     author="Abhishek Agarwal",
     author_email="abhishek.agarwal@npl.co.uk",

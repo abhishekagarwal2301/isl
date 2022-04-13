@@ -5,7 +5,7 @@ setup(
     version="1.0.0",
     author="Abhishek Agarwal",
     author_email="abhishek.agarwal@npl.co.uk",
-    packages=find_packages("isl"),
+    packages=find_packages(),
     scripts=[],
     url="https://github.com/abhishekagarwal2301/isl",
     license="LICENSE",

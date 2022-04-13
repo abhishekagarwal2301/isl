@@ -1,18 +1,11 @@
-# Variational Quantum Algorithms
+# Incremental Structure Learning (ISL)
 
-## Features
-- Approximate circuit recompilation
-- VQE
+ISL is a circuit recompilation algorithm [1,2] that finds an approximate representation of a circuit when acting on the |0>|0>...|0> state.
 
 ## Approximate circuit recompilation
 Ref. arXiv:1807.00800v5
-
-Recompilation features:
-- Recompile a particular state (circuit with a fixed initial state)
-- Recompile a general circuit (circuit with an arbitrary initial state)
-- Recompile onto a particular coupling map
-- Recompile onto a custom gate set
-- Local, and non-local cost function (C_{LHST},C_{HST} in arXiv:1807.00800v5)
+[1] Jones, Tyson, and Simon C. Benjamin. "Quantum compilation and circuit optimisation via energy dissipation." arXiv preprint arXiv:1811.03147 (2018).
+[2] Khatri, Sumeet, et al. "Quantum-assisted quantum compiling." Quantum 3 (2019): 140.
 
 ### Using ISL
 ```python

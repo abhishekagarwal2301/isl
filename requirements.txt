@@ -1,4 +1,4 @@
-qiskit~=0.36.0
+qiskit~=0.36.1
 matplotlib~=3.5.1
 pandas~=1.4.2
 setuptools~=62.1.0

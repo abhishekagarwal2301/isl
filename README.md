@@ -7,6 +7,14 @@ alongside it's use in the Quantum Awards can be found [here](https://ibmquantuma
 
 [1] B Jaderberg, A Agarwal, K Leonhardt, M Kiffner, D Jaksch, 2020 Quantum Sci. Technol. 5 034015
 
+## Installing ISL
+
+The best way of installing ISL is through `pip`:
+
+```
+pip install quantum-isl
+```
+
 ## Using ISL
 
 ### Minimal example
